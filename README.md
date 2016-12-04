@@ -1,4 +1,4 @@
-# kooa
+# generator-kooa
 
 Koa generator for yeoman.
 
