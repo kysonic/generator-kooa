@@ -1,0 +1,16 @@
+{
+    "sitename": "<%=appName%>",
+    "trust_proxy": true,
+    "port": <%=port%>,
+    "mongoose": {
+        "uri": "mongodb://localhost/<%=dbName%>",
+        "options": {
+            "server": {
+                "socketOptions": {
+                    "keepAlive": 1,
+                    "connectTimeoutMS": 30000
+                }
+            }
+        }
+    }
+}

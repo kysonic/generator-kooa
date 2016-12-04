@@ -1,0 +1,22 @@
+{
+  "name": "generator-kooa",
+  "version": "0.0.1",
+  "description": "Bootstrap your koa application",
+  "main": "index.js",
+  "files": [
+    "generators/app",
+    "generators/router"
+  ],
+  "scripts": {
+    "test": "-"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "kysonic",
+  "license": "MIT",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "yeoman-generator": "^0.24.1"
+  }
+}
